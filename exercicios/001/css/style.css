@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:active{
+    color: yellowgreen;
+
+}
+
+a::before{
+content: '&rightarrow;';
+
+
+
+}
+
+a::after{
+    content: '&leftarrow;';
+}
+
+a{
+    font-weight: bold;
+color: red;
+text-decoration: none;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+color: black;
+text-decoration: underline;
+
+}
+
+
+.d1{
+margin-left: 10%;
+margin-top: 3%;
+}
