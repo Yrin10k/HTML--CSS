@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+*{/*todo o site*/
+    padding: 0;
+    margin: 0;
+    }
+    a{
+    font-size: 30px;
+    
+    }
+    
+    .Menu a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+    
+    
+    header img{/*imagem no topo do site*/
+        width: 35%;
+        padding:2%;
+        margin-left: 30%;
+    margin-right: 10%;
+    
+    }
+    
+    .Menu{
+       /*A divisória do menu em todo*/
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 128, 255);
+    padding-bottom: 2px;
+    padding: 1%;
+    display: inline-block;
+     border: solid rgba(24, 99, 160, 0.697) 1px;
+    
+    
+    }
+    
+    .Menu a{/*Para cada ancora*/
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 1%;
+    padding-left: 10%;
+    
+    }
+
+    .p2{/*Refere-se ao paragrafo que emgloba toda as ancoras do rodapé*/
+        margin-left: 20px;
+        margin-top: 30px;
+        
+        
+        }
+        
+        .i1{/*Refere-se a ancora do rodape instagram*/
+        width: 3%;
+        margin-top: 40px;
+        }
+        
+        .i2{/*Refere-se a ancora do rodape facebook*/
+            margin-top: 40px;
+            width: 3%;
+            margin-left: 15px;
+            }
+        
+          footer span{/*tag span do rodapé*/
+        float: left;
+        font-size: 30px;
+        margin-left: 20px;
+        color: white;   
+          }
+        
+          .pmenu{/*está sendo usado para fazer alterações em um todo das ancoras do menu*/
+        text-align: center;
+        }
+
+
+        /*Conteúdo da pagina Software*/
+       
+        /*WINRAR*/
+        .Wr{
+           
+margin-left: 5%;
+margin-top: 5%;
+padding: 2%;
+border-radius: 20px;
+background-image: linear-gradient(to right, #5038DB, #8333F2, #A123DB);
+width: 50%;
+
+        }
+.Wr >p{
+    color: white;
+}
+.Wr >h1{
+    color: azure;
+    float: left;
+}
+.winrarImage{
+width: 20%;
+float: left;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+.baixarwinrar{
+border-radius: 10px;
+padding: 2%;
+background-color: rgba(212, 97, 228, 0.671);
+border: 1px solid rgba(45, 0, 128, 0.205);
+margin-left: 4%;
+
+}
+
+
+.baixarwinrar:hover{
+text-decoration: underline;
+box-shadow: 0px 1px 5px rgba(104, 38, 101, 0.699) ;
+
+}
+
+.linkwinrar{
+   text-decoration: none;
+   font-size: 25px; 
+font-family: monospace;
+font-weight: bold;
+}
+ /*WINRAR*/
+
+
+
+
+
+ /*GIMP*/
+ .gimp{
+           
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1648b4ee,
+     #1523df, #04338aea);
+    width: 50%;
+    
+            }
+ 
+ .gimp >p{
+    color: white;
+
+}
+.gimp >h1{
+    color: white;
+float: left;
+}
+.gimpimage{
+width: 20%;
+float: left;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+
+.baixargimp{
+border-radius: 10px;
+padding: 2%;
+background-color: rgba(97, 169, 228, 0.671);
+border: 1px solid rgba(45, 0, 128, 0.205);
+margin-left: 4%;
+
+}
+
+
+.baixargimp:hover{
+text-decoration: underline;
+box-shadow: 0px 1px 5px rgba(3, 14, 110, 0.699) ;
+
+}
+
+.linkgimp{
+   color: white;
+    text-decoration: none;
+   font-size: 25px; 
+font-family: monospace;
+font-weight: bold;
+}
+ /*GIMP*/
+
+/*Utorrent*/
+
+.ut{
+           
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #51c424ee,
+     #39bd2d, #2ba320);
+    width: 50%;
+    
+            }
+ 
+ .ut >p{
+    color: white;
+
+}
+.ut >h1{
+    color: white;
+float: left;
+}
+.uimage{
+width: 20%;
+float: left;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+
+.baixaru{
+border-radius: 10px;
+padding: 2%;
+background-color: rgba(97, 228, 156, 0.671);
+border: 1px solid rgba(45, 0, 128, 0.205);
+margin-left: 4%;
+
+}
+
+
+.baixarut:hover{
+text-decoration: underline;
+box-shadow: 0px 1px 5px rgba(3, 14, 110, 0.699) ;
+
+}
+
+.linku{
+   color: white;
+    text-decoration: none;
+   font-size: 25px; 
+font-family: monospace;
+font-weight: bold;
+}
+/*Utorrent*/
+
+
+
+
+/*MPV*/
+
+.mpv{
+           
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #7607d1,
+     #0922adfd, #3c20a3);
+    width: 50%;
+    
+            }
+ 
+ .mpv >p{
+    color: white;
+
+}
+.mpv >h1{
+    color: white;
+float: left;
+}
+.mpvimage{
+width: 20%;
+float: left;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+
+.baixarmpv{
+border-radius: 10px;
+padding: 2%;
+background-color: rgba(125, 97, 228, 0.671);
+border: 1px solid rgba(45, 0, 128, 0.205);
+margin-left: 4%;
+
+}
+
+
+.baixarmpv:hover{
+text-decoration: underline;
+box-shadow: 0px 1px 5px rgba(3, 14, 110, 0.699) ;
+
+}
+
+.linkmpv{
+   color: white;
+    text-decoration: none;
+   font-size: 25px; 
+font-family: monospace;
+font-weight: bold;
+}
+/*MPV*/
+
+
+

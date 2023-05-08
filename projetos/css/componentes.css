@@ -1,0 +1,283 @@
+*{/*todo o site*/
+    padding: 0;
+    margin: 0;
+font-family: lato;   
+}
+ 
+.menusubimg{
+width: 3%;
+text-align: center;
+
+
+
+}
+
+
+
+
+/*O QUE É UMA PLACA MÃE*/
+         .placamae{
+            height: 45vh;
+            width: 60%;
+            background-color: rgba(98, 185, 243, 0.637);
+            margin-left: 4%;
+            margin-top: 10%;
+           display: inline-block;
+            padding: 5%;
+            border: 5px black solid;
+            border-radius: 10px;
+            
+                    }
+          
+            .placamae > h1{
+            font-size: 32px;
+        
+            
+            }
+            .placamae > p{
+font-size: 28px;
+            }
+
+            .motherboardnobackground{
+            width: 25%;
+float: right;
+padding-left: 10%;
+padding-bottom: 30%;
+
+}
+            
+            .tested2{
+margin-top: 6%;
+
+
+            }
+
+
+/*MENU INICIA*/
+            a{
+                font-size: 30px;
+                
+                }
+                
+                .Menu a:hover{
+                    text-decoration: underline;
+                }
+                
+                
+                
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 30px;
+                }
+                
+                
+                header img{/*imagem no topo do site*/
+                    width: 35%;
+                    padding:2%;
+                    margin-left: 30%;
+                margin-right: 10%;
+                
+                }
+                
+                .Menu{
+                   /*A divisória do menu em todo*/
+                width: 100%;
+                height: auto;
+                background-color: rgb(0, 128, 255);
+                padding-bottom: 2px;
+                padding: 1%;
+                display: inline-block;
+                 border: solid rgba(24, 99, 160, 0.697) 1px;
+                
+                
+                }
+                
+                .Menu a{/*Para cada ancora*/
+                text-decoration: none;
+                margin: 10px;
+                color: white;
+                padding: 1%;
+                padding-left: 10%;
+                
+                }
+               /*MENU ACABA*/
+
+                    
+    /*RODAPÉ INICIA*/
+    footer{/*Refere-se ao rodapé*/
+        width: 100%;
+     height: 200px;
+     background-color:rgb(57, 98, 196);
+     
+        
+         clear: both;
+     }
+     
+     
+     
+     .p2{/*Refere-se ao paragrafo que emgloba toda as ancoras do rodapé*/
+     margin-left: 20px;
+     margin-top: 30px;
+     
+     
+     }
+     
+     .i1{/*Refere-se a ancora do rodape instagram*/
+     width: 3%;
+     margin-top: 40px;
+     }
+     
+     .i2{/*Refere-se a ancora do rodape facebook*/
+         margin-top: 40px;
+         width: 3%;
+         margin-left: 15px;
+         }
+     
+       footer span{/*tag span do rodapé*/
+     float: left;
+     font-size: 30px;
+     margin-left: 20px;
+     color: white;   
+       }
+     
+       .pmenu{/*está sendo usado para fazer alterações em um todo das ancoras do menu*/
+     text-align: center;
+     }
+address{
+    
+    
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+/*RODAPÉ ACABA*/
+
+        /*ABA DO PROCESSADOR INICIA*/
+.Processador{
+height: 30vh;
+    width: 70%;
+margin-left: 7%;
+margin-top: 4%;
+padding: 6%;
+border: solid rgba(150, 148, 26, 0.144) 4px;
+background-color: beige;
+border-radius: 10px;
+
+
+}
+ .cpuh1{
+     float: left;
+ }
+
+.cpup{
+float: right;
+
+
+}
+
+
+    .cpu{
+width: 20%;
+ margin-top: 3%;
+padding-bottom: 5%;
+
+    }
+     /*ABA DO PROCESSADOR ACABA*/
+
+     /*ABA DA MÉMORIA RAM INICIA*/
+     .ram{
+margin-top: 10%;
+margin-left: 8%;
+ margin-bottom: 5%;
+width: 70%;
+height: 50vh;
+border: 4px solid rgba(145, 179, 64, 0.253);
+padding: 3%;
+border-radius: 20px;
+background-color: rgb(61, 206, 116);
+
+     }
+.ram > img{
+   float: left;
+    width: 15%;
+}
+.mtxt{
+
+font-size: 35px;
+padding-left: 20%;
+/*ABA DA MÉMORIA RAM ACABA*/ 
+
+
+
+}
+/*sobre a Imagem disco rígido*/
+.hdimg{
+width: 23%;
+float: left;
+
+
+}
+/*divisória do disco rigido*/
+.hd{
+margin-bottom: 5%;
+width: 90%;
+background-color: rgb(15, 190, 190);
+border: 4px solid rgba(21, 201, 192, 0.527);
+margin-left: 4%;
+padding: 1%;
+border-radius: 20px;
+
+
+}
+/*acaba aqui*/
+
+
+/*ABA DA PLACA DE VÍDEO COMEÇA AQUI*/
+.videoboard{
+padding: 1%;
+margin-left: 3%;
+width: 90%;
+background-color: beige;
+border: 5px solid rgba(133, 21, 177, 0.445);
+border-radius: 20px;
+animation-name: animpl;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+margin-bottom: 6%;
+
+
+
+}
+
+.plvideo{
+width: 21%;
+float: left;
+margin-right: 3%;
+
+}
+
+@keyframes animpl {
+0%{background-color: #9D32F0;}
+  25%{background-color: #5823D9;}  
+50%{background-color: #BC23D9;}
+75%{background-color: #D61EF8;}
+100%{background-color: #871AD9;}
+
+}
+/*ABA DA PLACA DE VÍDEO acaba AQUI(pensava colocar)*/
+
+
+/*ONDE SUSTENTA TUDO ISSO?
+.pergunta{
+text-align: center;
+width: 100%;
+background-color: rgba(0, 110, 255, 0.692);
+color: rgb(221, 221, 221);
+ 
+}
+ */
+ 
+
+

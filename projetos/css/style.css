@@ -1,0 +1,171 @@
+*{/*todo o site*/
+    padding: 0;
+    margin: 0;
+font-family: lato;    
+
+}
+    a{
+    font-size: 30px;
+    
+    }
+    
+    .Menu a:hover{
+        text-decoration: underline;
+    }
+    
+    
+
+    .menusubimg{
+
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+    
+    
+    header img{/*imagem no topo do site*/
+        width: 35%;
+        padding:2%;
+        margin-left: 30%;
+    margin-right: 10%;
+    
+    }
+    
+    .Menu{
+       /*A divisória do menu em todo*/
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 128, 255);
+    padding-bottom: 2px;
+    padding: 1%;
+    display: inline-block;
+     border: solid rgba(24, 99, 160, 0.697) 1px;
+    
+    
+    }
+    
+    .Menu a{/*Para cada ancora*/
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 1%;
+    padding-left: 10%;
+    
+    }
+    
+    .conteudo1{/*Refere-se ao "O QUE É UM PC?"*/
+    margin-left: 20%;
+    margin-top: 4%;
+    width: 50%;
+    border: solid rgb(91, 91, 91) 1px;
+    padding: 2%;
+    background-color: #e0e0e097;
+    border-radius: 10px;
+    
+    }
+    .conteudo1 h1{
+        color: rgb(57, 98, 196);
+        font-style: bold;
+    }
+    
+    
+    
+    .conteudo2{/*Refere-se ao "a importancia do pc"*/
+      margin-left: 2%;
+      padding: 8%;
+    margin-top: 2%;
+    
+    
+    }
+    .conteudo2 p, h1{/*emgloba o paragrafo e h1 do "A IMPORTANCIA DO PC"*/
+    font-family: lato;    
+    text-align: justify;
+    
+    }
+    .conteudo2 h1{
+        color: rgb(57, 98, 196);
+    }
+    
+    
+    .conteudo2 .imst{/*refere-se a imagem do "A IMPORTANCIA DO PC"*/
+    width: 39%;
+     float: right;
+    
+    }
+    
+    
+    .conteudo3{/*Refere-se ao "POR QUE VOCÊ PRECISA DE UM PC?"*/
+      
+        width: 39%;
+       margin-top: 10%;
+        margin-left: 2%;
+        font-family: lato;    
+        text-align: justify;   
+      padding: 8%;
+        float: left;
+    }
+    .conteudo3 h1{/*h1 do "POR QUE VOCE PRECISA DE UM PC?"*/
+        color: rgb(87, 128, 224);
+    }
+    
+    
+    .d1{/*Refere-se a imagem a direita da div"conteudo 3"*/
+    width: 39%;
+    
+    
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10%;
+    
+    }
+    
+    
+    
+    footer{/*Refere-se ao rodapé*/
+       width: 100%;
+    height: 200px;
+    background-color:rgb(57, 98, 196);
+    
+       
+        clear: both;
+    }
+    
+    
+    
+    .p2{/*Refere-se ao paragrafo que emgloba toda as ancoras do rodapé*/
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    
+    }
+    
+    .i1{/*Refere-se a ancora do rodape instagram*/
+    width: 3%;
+    margin-top: 40px;
+    }
+    
+    .i2{/*Refere-se a ancora do rodape facebook*/
+        margin-top: 40px;
+        width: 3%;
+        margin-left: 15px;
+        }
+    
+      footer span{/*tag span do rodapé*/
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;   
+      }
+    
+      .pmenu{/*está sendo usado para fazer alterações em um todo das ancoras do menu*/
+    text-align: center;
+    }
+    address{
+        margin-left: 5%;
+        font-size: 30px;
+    }
