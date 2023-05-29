@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: rgb(60, 199, 134);
+
+}
+
+main{
+
+    }
+h1{
+margin-bottom: 3%;
+font-size: 50px;
+color: rgb(110, 110, 110);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+background-color: white;
+margin-top: 10%;
+
+width: 60%;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 7px 10px 10px 1px rgba(2, 75, 36, 0.466);
+height: 60vh;
+border-radius: 20px;
+color: rgba(82, 82, 82, 0.712);
+
+}
+form > label{
+font-size: 25px;    
+
+
+}
+
+form{
+text-align: center;
+width: 100%;
+float: left; 
+padding-top: 5%;
+}
+
+/*Submit Entrar*/
+#entrar{width: 25%;
+    height: 6vh;
+    margin-bottom: 3%;
+    font-size: 20px;
+border-radius: 10px;
+border: 0;
+background-color: rgba(57, 218, 151, 0.842);
+color: white;
+}
+#email, #senha{
+   height: 5vh;
+   width: 30%;
+   border-radius: 7px;
+   border: 0;
+}
+
+/* icone de user do login*/
+
+.usericon{
+    width: 15%;
+    
+}
+
+/*Esqueceu sua senha*/
+.forgot{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(90, 149, 115, 0.623);
+   margin-bottom: 6%;
+}
+.forgot > a{ 
+    color: rgb(56, 82, 52);
+}
+
