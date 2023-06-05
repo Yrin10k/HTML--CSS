@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,700&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="cadastro.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+</head>
+<body>
+
+<!--divs de organização-->
+<aside class="top">
+</aside>
+
+<aside class="left">
+</aside>
+
+<!--lado esquerdo do formulário de cadastro-->
+
+<aside class="intern">
+<img class="imglogo" src="imagens/logo.jfif" alt="">
+<h2 class="c1">Aqui no </h2>
+<h2 class="c2">Bairro <br> da Juventude</h2>  
+<h2 class="c1">a gente<br> <h2>
+<h2 class="c2" style="font-weight:200;"><em>faz a diferença</em></h2>
+<a href="https://www.facebook.com/" target="_blank" > <img id="face" src="imagens/facelogo.png" alt=""> </a>
+
+</aside>
+
+
+<main> 
+
+      <!--Titulo principal (Crie uma conta)-->
+  <h1 class="hmain">Crie Uma Conta</h1>    
+<p id="registrar">Use Seu Email Para Registrar</p>
+
+
+<!--Boões para criar conta usando google, facebook ou linkedin-->
+
+
+
+<!--FORMULÁRIO DE CADASTRO-->
+<form class="cdst" action="<?php $_SERVER['PHP_SELF']?>" method="post">
+
+  <label for="user" id="inuser"><img src="imagens/userlogo-removebg.png" class="userlogo" alt=""></label>
+    <input type="text" name="user"  class="in" id="user" placeholder="User">
+  
+
+
+<br>
+
+<label for="email" id="inemeail"><img id="emaillogo"src="imagens/emaillogo-removebg.png" alt=""> <input type="email" name="email" id="email" placeholder="Email" class="in"></label>
+<br>
+
+<label for="senha" id="insenha"><img id="senhalogo" src="imagens/senhalogo-removebg.png" alt=""> <input type="password" name="senha" id="senha"  class="in" placeholder="Senha"></label>
+<br>
+<input type="submit" value="Cadastrar" id="enviar">
+</form>
+
+</main>
+</body>
+</html>

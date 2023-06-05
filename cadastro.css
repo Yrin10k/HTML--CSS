@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(57, 218, 151, 0.842);
+
+}
+main{display: inline;
+    margin-left: auto;
+    margin-right:  5%;
+    background-color: white;
+    width: 50%;
+float: right;
+padding: 5%;
+}
+/*FORMULÁRIO DE CADASTRO*/
+.cdst{
+    padding:10%;
+    background-color: rgba(4, 126, 30, 0.671);
+}
+/*INPUTS DO FORMULÁRIO*/
+.in{
+    width: 100%;
+   height: 5vh;
+}
+ 
+
+#user{
+    margin-top: 2%;
+    border-radius: 8px;
+    border-color: rgba(3, 161, 24, 0);
+}
+#email{ 
+    margin-top: 2%;
+    border-radius: 8px;
+    border-color: rgba(0, 255, 34, 0);
+}
+#senha{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    border-color: rgba(3, 161, 24, 0);
+}
+ .hmain{
+     font-family: lato;
+    text-align: center;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+border-radius: 10px 0px  10px 10px;
+ }
+
+ #enviar{
+width: 50%;
+margin-left: 20%;
+margin-right: auto;
+height: 5vh;
+border-radius: 20px;
+border: 0;
+background-color: rgb(34,124,76);color: white;
+font-size: 18px;
+ }
+
+ /*ASIDE QUE FICA AO LADO(esquerdo) DO MAIN*/
+.top{
+    
+    background-color: rgba(57, 218, 151, 0.842);
+
+    width: 100%;
+    height: 10vh; 
+     
+}
+
+.left{display: inline;
+    background-color: rgba(57, 218, 151, 0.842);
+
+    width: 15%;
+    height: 90vh;
+    float: left;
+}
+/*PARTE REFERENTE A ESQUERDA DO FORMULARIO COM IMAGENS*/
+.intern{
+    display: inline-block;
+    background-color: rgb(34,124,76);
+    width: 30%;
+    height: 88vh;
+     border-radius: 0px 0px 15px 15px;
+     border-top-left-radius: 20px;
+}
+
+.imglogo{
+    opacity: 1;
+}
+
+.intern > .c1{ 
+    color: white;
+    font-size: 40px;
+    padding-left: 3%;
+    font-family: Poppins;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.intern > .c2{ 
+    color: white;
+    font-size: 40px;
+    padding-left: 3%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-weight: bold;
+  
+}
+/*Botão facebook*/
+#face{
+    width: 15%;
+}
+
+/*FORMULÁRIO DE CADASTRO*/
+/*paragrafo use seu email*/
+#registrar{ 
+    padding-top: 4%;
+text-align: center;
+    font-family: lato;
+    background-color: rgba(4, 126, 30, 0.671);
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+
+}
+.userlogo{
+width: 5%;
+
+}
+
+#inuser{
+    
+}
+#emaillogo{
+    margin-top: 2%;
+    width: 5%;
+}
+
+#senhalogo{
+    margin-top: 2%;
+    width: 5%;
+}
